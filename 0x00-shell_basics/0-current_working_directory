@@ -1,2 +1,4 @@
 #!/bin/bash
-SCRIPT_PATH="${BASH_SOURCE}"; ABS_SCRIPT_PATH="$(realpath "${SCRIPT_PATH}")"; echo "value of script path is: ${ABS_SCRIPT_PATH}" 
+SCRIPT_PATH="${BASH_SOURCE}"
+ABS_SCRIPT_PATH="$(realpath "${SCRIPT_PATH}")"
+echo "value of script path is: ${ABS_SCRIPT_PATH}" 
